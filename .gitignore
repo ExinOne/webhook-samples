@@ -1,0 +1,6 @@
+.DS_Store
+shell/config.cfg
+go/config.cfg
+nodejs/config.cfg
+php/config.cfg
+python/config.cfg
