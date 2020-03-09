@@ -4,3 +4,5 @@ go/config.cfg
 nodejs/config.cfg
 php/config.cfg
 python/config.cfg
+python/webhook.log
+python/config.yml
