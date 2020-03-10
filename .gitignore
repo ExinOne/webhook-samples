@@ -1,8 +1,11 @@
 .DS_Store
 shell/config.cfg
-go/config.cfg
-nodejs/config.cfg
-php/config.cfg
 python/config.cfg
 python/webhook.log
 python/config.yml
+php/config.ini
+php/composer.phar
+php/vendor/*
+php/webhook.log
+go/config.cfg
+nodejs/config.cfg

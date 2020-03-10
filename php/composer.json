@@ -1,0 +1,7 @@
+{
+    "require": {
+        "guzzlehttp/guzzle": "^6.5",
+        "monolog/monolog": "^2.0",
+        "analog/analog": "^1.0"
+    }
+}
