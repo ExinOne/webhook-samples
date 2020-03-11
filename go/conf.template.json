@@ -1,0 +1,5 @@
+{
+    "LogFile": "webhook.log",
+    "WebhookUrl": "https://webhook.exinwork.com/api/send?access_token=",
+    "AccessToken": ""
+}

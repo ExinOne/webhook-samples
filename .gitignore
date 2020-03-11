@@ -7,5 +7,7 @@ php/config.ini
 php/composer.phar
 php/vendor/*
 php/webhook.log
-go/config.cfg
+go/conf.json
+go/go
+go/webhook.log
 nodejs/config.cfg
