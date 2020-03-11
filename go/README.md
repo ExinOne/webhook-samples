@@ -17,6 +17,7 @@
 ## Installation
 
 - Written in Go, go installation you can use `brew install go`
+- Go 1.13.x required
 
 ### Clone
 
