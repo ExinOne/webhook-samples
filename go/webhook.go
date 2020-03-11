@@ -58,7 +58,7 @@ func sendMixin(content string) bool {
 
     // Create logger
 	fileName := configuration.LogFile
-	logFile, err := os.OpenFile(fileName, os.O_WRONLY|os.O_APPEND, 0644)
+	logFile, err := os.OpenFile(fileName, os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
 
 	if err != nil {
 	   	log.Fatalf("Failed opening file: %s", err)
