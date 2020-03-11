@@ -45,7 +45,7 @@ WEBHOOK_URL=https://webhook.exinwork.com/api/send?access_token
 ACCESS_TOKEN=YOUR_ACCESS_TOKEN
 ```
 
-Then exectue `python webhook.py` in the terminal to test it works or not.
+Then exectue `./webhook.sh` in the terminal to test it works or not.
 
 ## Features
 
