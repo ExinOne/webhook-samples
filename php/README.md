@@ -17,6 +17,7 @@
 ## Installation
 
 - Written in PHP
+- PHP 7.3.x required
 
 ### Clone
 
