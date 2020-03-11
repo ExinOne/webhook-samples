@@ -29,17 +29,16 @@ def send_mixin(content):
     webhook_url = config["webhook"]["webhook_url"]
     access_token = config["webhook"]["access_token"]
     response = requests.post(webhook_url.format(access_token), data=value)
-    if response.status_code == 200:
+    data = response.json()
+    success = data['success']
+    if success:
         logging.info("Send mixin successfully.")
     else:
         logging.error("Send mixin failed.")
 
-def test():
-    send_mixin("Hello World")
-
 def main():
     log_config()
-    test()
+    send_mixin("Hello World")
 
 if __name__ == "__main__":
     main()
