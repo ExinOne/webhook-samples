@@ -1,5 +1,6 @@
 .DS_Store
 shell/config.cfg
+shell/webhook.log
 python/config.cfg
 python/webhook.log
 python/config.yml
