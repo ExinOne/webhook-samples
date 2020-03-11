@@ -49,7 +49,7 @@ Then exectue `./webhook.sh` in the terminal to test it works or not.
 
 ## Features
 
-- Provide Webhook samples in Python
+- Provide Webhook samples in Shell
 - Send example message via Webhook which based on Mixin API
 
 ## Contributing
